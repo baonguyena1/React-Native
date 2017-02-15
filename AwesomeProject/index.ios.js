@@ -7,35 +7,17 @@
 import React, { Component } from 'react';
 import {
   AppRegistry,
+  View,
   StyleSheet
 } from 'react-native';
-import App from './Components/App';
+import Splash from './src/Splash';
 
 export default class AwesomeProject extends Component {
   render() {
     return (
-      <App />
+      <Splash />
     );
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
-});
 
 AppRegistry.registerComponent('AwesomeProject', () => AwesomeProject);
