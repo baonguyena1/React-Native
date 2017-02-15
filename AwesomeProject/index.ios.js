@@ -11,11 +11,13 @@ import {
   StyleSheet
 } from 'react-native';
 import Splash from './src/Splash';
+import Login from './src/login/Login';
 
 export default class AwesomeProject extends Component {
   render() {
     return (
-      <Splash />
+      // <Splash />
+      <Login />
     );
   }
 }
